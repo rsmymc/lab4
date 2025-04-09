@@ -64,6 +64,6 @@ public class Actor {
 
     @Override
     public int hashCode() {
-        return Objects.hash(actorId, firstName, lastName);
+        return Objects.hash(Integer.valueOf(actorId), firstName, lastName);
     }
 }
